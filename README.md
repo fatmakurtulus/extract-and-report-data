@@ -13,21 +13,21 @@ The program gives user a choice to topic of movie. The user can see the list of
 topics from 1 to 15, the user writes the number of the topic user wants and can 
 reach the Top Rated Movies list.
 ### There are 15 different topics about movies:
-1- Action
-2- Adventure
-3- Animation 
-4- Biography
-5- Comedy
-6- Crime
-7- Drama
-8- Family
-9- Fantasy
-10- History
-11- Horror
-12- Music
-13- Romance
-14- Sport
-15- Western
+1. Action
+2. Adventure
+3. Animation 
+4. Biography
+5. Comedy
+6. Crime
+7. Drama
+8. Family
+9. Fantasy
+10. History
+11. Horror
+12. Music
+13. Romance
+14. Sport
+15. Western
 ### The Code Explanation
 • The program gets the data of IMDB. However the data cannot be read so 
 “soup” is defined and the data becomes readable in the program. For 
@@ -60,6 +60,8 @@ user press 0 program will be shut down.
  break
 • If the user does not press one of the numbers between 1 and 15. The 
 program have to tell the user this is a wrong select.
+```
 else:
  print("Wrong select2.")
  i = 0
+ ```
